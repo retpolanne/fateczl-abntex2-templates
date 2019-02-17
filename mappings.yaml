@@ -9,9 +9,8 @@ mappings:
     toc: sumario.tex
   textual:
     path: textuais
-    introduction: introducao.tex
-    textContent: conteudo-textual.tex
-    conclusion: conclusão.tex
+    section: secoes.tex
+    chapter: capitulos.tex
   postextual:
     path: pos-textuais
     bibliography: base-referencias.bib

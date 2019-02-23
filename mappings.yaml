@@ -1,16 +1,18 @@
 # This file should match your template
-mappings:
-  baseTexFile: main.tex
-  pretextualFiles:
-    path: pre-textuais
-    abstractEn: abstract.tex
-    abstractPt: resumo.tex
-    cover: capa.tex
-    toc: sumario.tex
-  textual:
-    path: textuais
-    section: secoes.tex
-    chapter: capitulos.tex
-  postextual:
-    path: pos-textuais
-    bibliography: base-referencias.bib
+delims:
+  - "[["
+  - "]]"
+baseTexFile: main.tex
+pretextual:
+  path: pre-textuais
+  abstractEn: abstract.tex
+  abstractPt: resumo.tex
+  cover: capa.tex
+  toc: sumario.tex
+textual:
+  path: textuais
+  section: secoes.tex
+  chapter: capitulos.tex
+postextual:
+  path: pos-textuais
+  bibliography: base-referencias.bib
